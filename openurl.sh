@@ -5,7 +5,7 @@
 #
 
 
-BROWSER=firefox
+BROWSER=google-chrome-stable
 
 url="$(cat ~/.local/share/reyos/bookmarks | sort -n | rofi -width 20 -dmenu -mesg ">>> Select url to browse to" -i -p  "openurl.sh ")"
 
