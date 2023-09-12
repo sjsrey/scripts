@@ -1,0 +1,2 @@
+#! /bin/sh
+chosen=$(find ~/scripts -name 'su*.sh' | rofi -dmenu -i "Test" )
